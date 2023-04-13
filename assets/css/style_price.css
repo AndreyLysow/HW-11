@@ -1,0 +1,122 @@
+
+@font-face {
+	font-family: 'oswaldbold';
+	font-weight: normal;
+	font-style: normal;
+	src:url('../fonts/oswald-bold.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'oswaldlight';
+	font-weight: normal;
+	font-style: normal;
+	src:url('../fonts/oswald-light.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'oswaldregular';
+	font-weight: normal;
+	font-style: normal;
+	src:url('../fonts/oswald-regular.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'lobsterregular';
+	font-weight: normal;
+	font-style: normal;
+	src:url('../fonts/lobster-regular.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'pt_sansitalic';
+	font-weight: normal;
+	font-style: normal;
+	src:url('../fonts/pt_sans-web-italic.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'pt_sansregular';
+	font-weight: normal;
+	font-style: normal;
+	src:url('../fonts/pt_sans-web-regular.woff2') format('woff2');
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+  }
+  
+  a:hover {
+    color: #666;
+  }
+  
+  a:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 50%;
+  }
+  
+  #price {
+    font-weight: bold;
+    margin-left: 5px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+  }
+  
+  table caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  table th,
+  table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  table th {
+    background-color: #eee;
+    font-weight: bold;
+  }
+  
+  table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  table tr:hover {
+    background-color: #ddd;
+  }
+  
+  table td:first-child {
+    border-left: none;
+  }
+  
+  table td:last-child {
+    border-right: none;
+  }
+  
+  table td:nth-child(even) {
+    background-color: #f9f9f9;
+  }
